@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regex</title>
+    <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <script src="jquery-3.5.1.slim.min.js"></script>
+    <style type="text/css">
+        #circle{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-color: green;
+            margin: 10px;
+        }
+
+    
+
+    </style>
+</head>
+<body>
+    <p>This is some text</p>
+    <div id="circle"></div>
+  
+
+    <script type="text/javascript">
+    // i = insatnce g = global
+        var regex = /Great/i;
+        var string = "regex is great!";
+        var result = string.match(regex);
+        alert(result);
+    </script>
+</body>
+</html>
